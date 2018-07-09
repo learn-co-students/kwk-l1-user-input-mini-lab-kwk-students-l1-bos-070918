@@ -1,16 +1,9 @@
-# Code your prompts here!
-
-# First, puts out a string asking where the tourist would like to stay.
-puts "Let's plan your trip! Where would you like to stay?"
-
-# Then, set a variable called stay to get the user's input. Make sure to capitilize that input.
-
-stay = gets.chomp.capitalize  #don't forget to Capitilize the input
-
-# Do the same thing with `eats` and one last time with `nights`, capturing their text input and storing them to the respective local variable
-
-
-
-# Lastly, puts it all back by interpolating these values in a string.
-
-puts ""
+puts "Where do you want to stay?"
+stay= gets.chomp
+puts "What sites do you want to visit?"
+sites= gets.chomp
+puts "What food do you want to eat?"
+food= gets.chomp
+puts "How many nights would you like to stay?"
+numberofnights= gets.chomp
+puts "You will stay in #{stay}, visit #{sites}, eat #{food}, and stay for #{numberofnights} nights. Enjoy your trip!"
